@@ -56,7 +56,7 @@ except Exception:
 
 links=[]
 images=driver.find_elements(By.CSS_SELECTOR,"#islrg > div.islrc > div> div> a.FRuiCf.islib.nfEiy > div.fR600b.islir > img")
-##islrg > div.islrc > div > a.wXeWr.islib.nfEiy>div.bRMDJf.islir>img  <--책에는 이렇게 나왔으나 실제로 검색해서 처리 하였음.
+##islrg > div.islrc > div > a.wXeWr.islib.nfEiy>div.bRMDJf.islir>img  <--안됨. 실제로 검색해서 처리 하였음.
 
 #이미지에 링크가 있으면 links 리스트에 추가시키고 linke길이를 구한다. 
 for image in images:
